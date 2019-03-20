@@ -19,5 +19,6 @@ desert_hex = Hex('Desert', 'None', 'None')
 desert_index = random.randint(0, 19)
 resource_hexes = resource_hexes[:desert_index] + [desert_hex] + resource_hexes[desert_index + 1:]
 
+
 for hex_tile in resource_hexes:
     print(hex_tile)
