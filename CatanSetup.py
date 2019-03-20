@@ -14,6 +14,7 @@ resource_hexes = []
 for resource_tuple, chit in zip(resource_tuples, chits_ordered):
     resource_hexes.append(Hex(resource_tuple[0], resource_tuple[1], chit))
 
+
 # Make the desert tile
 desert_hex = Hex('Desert', 'None', 'None')
 desert_index = random.randint(0, 19)
